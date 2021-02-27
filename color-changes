@@ -1,0 +1,84 @@
+/* Main Colors */
+:root {
+    --body-bg-color: #0c0c0d;
+    --body-color: #fff;
+    --navbar-bg-color: #181a1d;
+    --navbar-border-color: #479150;
+    --navbar-color: #fff;
+    --secondary-color: #5874dd;
+    --secondary-bg-color: #19191a;
+    --secondary-hover-bg-color: #444;
+    --footer-bg-color: #000;
+    --footer-main-bg-color: #131315;
+    --footer-main-bg: url(/images/subtle-glims-b7ed3e4….png?vsn=d);
+    --input-bg-color: #353535;
+    --input-color: #fff;
+    --input-border-color: #888;
+    --input-focus-border-color: #353235;
+    --input-group-addon-bg-color: #191e3a;
+    --input-group-addon-color: #c6c7cc;
+    --input-group-addon-border-color: #313131;
+}
+
+/* Main Category and Tags Badge Colors */
+.badge-primary {
+    color: #fff;
+    background-color: #00559b;
+}
+
+/* Welcome to chat Header*/
+#chat .chat-messages .channel-header span {
+    margin-bottom: 0;
+    background: #1e4586;
+    padding: 7px 20px;
+}
+
+/* Chat Message Bubbles */
+#chat .chat-messages .bubble {
+    flex: 0 1 auto;
+    align-self: flex-start;
+    background-color: #90ee90;
+    margin: 3px;
+    padding: 10px;
+    max-width: 370px;
+    word-break: break-word;
+    background-color: #0f0f0f;
+}
+
+/* Chat Input Colors */
+.form-control {
+    color: var(--input-color);
+    background-color: #151515;
+    background-clip: padding-box;
+    border: 1px solid #313131;
+}
+
+/* Chat Side Border Colors */
+.input-group-text {
+    color: #c1c1c1;
+    background-color: #181a1d;
+}
+
+/* Chat Side Border Colors On Hover */
+a:hover {
+    color: #7187ec;
+    text-decoration: underline;
+}
+
+/* Chat Scrollbar Background Colors */
+::-webkit-resizer, ::-webkit-scrollbar-corner {
+    background-color: #aebdd7;
+}
+::-webkit-scrollbar-button, ::-webkit-scrollbar-track {
+    background-color: #222;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #222;
+}
+
+/* Scrollbar Colors */
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #3a3b3c;
+}
